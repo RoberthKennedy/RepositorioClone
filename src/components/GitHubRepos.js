@@ -94,6 +94,16 @@ export default function GitHubRepos() {
                                     <p className="github__description">{repo.description}</p>
                                 )}
 
+                                <div className="github__item-details">
+                                    <span>⭐ {repo.stargazers_count}</span>
+                                    <span>{repo.forks_count} Forks</span>
+                                    {repo.pushed_at && (
+                                        <span>
+                                            Último commit: {new Date(repo.pushed_at).toLocaleDateString('pt-BR')}
+                                        </span>
+                                    )}
+                                </div>
+
                                 <a
                                     href={repo.html_url}
                                     target="_blank"
