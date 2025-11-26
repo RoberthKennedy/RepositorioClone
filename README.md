@@ -23,6 +23,6 @@ Mais clareza sobre a popularidade do repositório.
 
 Dados importantes sobre atividade e manutenção.
 
-Experiência mais completa para quem utiliza a busca.
 
-Se quiser, posso gerar uma versão com imagens, badges, um título mais estiloso, instruções de instalação ou até um README completo com seções tipo Instalação, Uso, Tecnologias, Autor, etc. Só pedir!
+
+
